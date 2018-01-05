@@ -6,6 +6,7 @@ Just a few details what I did. I built a small suite of 4 test cases for your si
 I used Webdriver and Mocha JS. I used the Page Object pattern using a Base Page, and other pages like the 'RequestDemo_page', 
 'Products' page and 'Jobs' pages inheriting from the Basepage. Our test class is called 'testing.js' in the 'tests' folder. 
 It makes use of methods from our page classes to execute the steps. You can just run it using 'mocha testing.js'
+ 
 
                                                  TESTS
 
