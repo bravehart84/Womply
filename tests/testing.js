@@ -28,7 +28,7 @@ var test = require('selenium-webdriver/testing');
 
   
 
-const mochaTimeOut = 70000; 
+const mochaTimeOut = 10000; 
  
  test.describe('Regression Suite', function() {
 
