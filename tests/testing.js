@@ -98,7 +98,7 @@ test.it('Verify video playback', function () {
 
   homepage.watch_Video();
 
-  assert.isAbove(homepage.get_Video_Progress(), 0.01, "Video is playing");
+  homepage.assert_Video_Playback()
 
   homepage.switchToDefaultContent();
  
