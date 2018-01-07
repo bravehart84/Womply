@@ -59,9 +59,6 @@ class HomePage extends Basepage{
 
             var frame= driver.findElement(By.css('.embed-block-wrapper.embed-block-provider-Vimeo>iframe'));
 
-            
-            driver.wait(until.ableToSwitchToFrame(frame), 6000);
-           
             driver.switchTo().frame(frame);
             
             this.navigateTo(By.className("play rounded-box state-paused"));
