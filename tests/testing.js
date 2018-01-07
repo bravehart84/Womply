@@ -92,12 +92,14 @@ test.it('Verify video playback', function () {
 
   this.timeout(mochaTimeOut);
 
+ //Scroll down to the video element
   homepage.scrollDown();
 
   
-
+//Switch to frame for the video and hit play button
   homepage.watch_Video();
 
+ //Assert that the video is playing
   homepage.assert_Video_Playback()
 
   homepage.switchToDefaultContent();
