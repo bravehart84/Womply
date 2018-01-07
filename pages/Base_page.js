@@ -1,4 +1,5 @@
 var webdriver = require('selenium-webdriver');
+var assert= require('chai').assert;
 var chrome= require('selenium-webdriver/chrome');
 var arg= new chrome.Options();
 arg.addArguments('disable-infobars');
@@ -69,7 +70,7 @@ var driver= this.driver =  new webdriver.Builder()
           isDisplayed(ele){
               return ele.isDisplayed().then(function(displayed){
 
-                return displayed;
+                 assert.isTrue(displayed, "Element is not displayed");
 
 
 
