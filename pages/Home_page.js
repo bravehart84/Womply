@@ -63,7 +63,7 @@ class HomePage extends Basepage{
             
             this.navigateTo(By.className("play rounded-box state-paused"));
 
-            driver.sleep(3000);
+            driver.sleep(4000);
             
            
                
@@ -72,23 +72,23 @@ class HomePage extends Basepage{
 
        
 
-        get_Video_Progress(){
-             driver.findElement(By.className("played")).getAttribute('aria-valuenow')
-             .then(function(attribute){
-                return attribute;
-             });
+        assert_Video_Playback(){
 
-           
-        }
+            
+            
+            
+    driver.findElement(By.xpath(".//*[@class='progress']//div[3]")).getAttribute('aria-valuenow')
+    .then(function(attr){
+        console.log('String Time of video played is '+attr)
+        var attrNumber= +attr;
+        console.log('Time of video played is '+attrNumber);
+     
+      assert.isAbove(attrNumber, 0.01, "Video is not playing");
 
-        
+    });
 
-
-
-        
-        
-
-        
+   
+ }
 
         
 }
