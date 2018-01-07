@@ -6,7 +6,9 @@ Just a few details what I did. I built a small suite of 4 test cases for your si
 I used Webdriver and Mocha JS. I used the Page Object pattern using a Base Page, and other pages like the 'RequestDemo_page', 
 'Products' page and 'Jobs' pages inheriting from the Basepage. Our test class is called 'testing.js' in the 'tests' folder. 
 It makes use of methods from our page classes to execute the steps. You can just run it using 'mocha testing.js'
-I added long timeouts to my test code because my current computer has been freezing lately, resulting in timeout errors. 
+I added long timeouts to my test code because my current computer has been freezing lately, resulting in timeout errors.
+
+I should have added a mochawesome HTML Test Report, but your website design changed on Friday morning just after I wrote the tests, so my automated tests were all failing except the last one (Verify video playback). My tests are as follows:
  
 
                                                  TESTS
