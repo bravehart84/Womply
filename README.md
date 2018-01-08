@@ -8,7 +8,7 @@ I used Webdriver and Mocha JS. I used the Page Object pattern using a Base Page,
 It makes use of methods from our page classes to execute the steps. You can just run it using 'mocha testing.js'
 I added long timeouts to my test code because my current computer has been freezing lately, resulting in timeout errors.
 
-I should have added a mochawesome HTML Test Report, but your website design changed on Friday morning just after I wrote the tests, so my automated tests were all failing except the last one (Verify video playback). My tests are as follows:
+My tests are as follows:
  
 
                                                  TESTS
