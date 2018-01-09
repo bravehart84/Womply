@@ -8,6 +8,8 @@ I used Webdriver and Mocha JS. I used the Page Object pattern using a Base Page,
 It makes use of methods from our page classes to execute the steps. You can just run it using 'mocha testing.js'
 I added long timeouts to my test code because my current computer has been freezing lately, resulting in timeout errors.
 
+I also added a mochawesome report 'WomplyTestReport.html' showing test results. You can view in any browser.
+
 My tests are as follows:
  
 
