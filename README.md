@@ -1,10 +1,6 @@
 # Womply
 
-Hello,
-
-Just a few details what I did. I built a small suite of 4 test cases for your site at http://www.Womply.com/. 
-I used Webdriver and Mocha JS. I used the Page Object pattern using a Base Page, and other pages like the 'RequestDemo_page', 
-'Products' page and 'Jobs' pages inheriting from the Basepage. Our test class is called 'testing.js' in the 'tests' folder. 
+I built a small suite of just 4 test cases for  http://www.Womply.com/ using Webdriver and Mocha JS. Test class is called 'testing.js' in the 'tests' folder. 
 It makes use of methods from our page classes to execute the steps. You can just run it using 'mocha testing.js'
 I added long timeouts to my test code because my current computer has been freezing lately, resulting in timeout errors.
 
@@ -25,4 +21,4 @@ My tests are as follows:
 
 Run testing.js as a mocha test and it will bring up a chrome browser and execute the tests.
 
-I can extend the tests to cover more but I wanted to show what I had so far. If you need anything else or if you need me to document the Test Cases manually please let me know, and I will attend to it. Thank you very much for this opportunity
+
